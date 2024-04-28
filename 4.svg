@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="000 000 512 512">
+  <style>
+  .light {
+    fill  : rgb(255, 000, 000);
+    stroke: rgb(000, 000, 000);
+  }
+  
+  .dark {
+    fill  : rgb(064, 000, 000);
+    stroke: rgb(000, 000, 000);
+  }
+  </style>
+  <defs>
+    <polygon id="horizontal" points="032 000 128 000 160 032 128 064 032 064 000 032"/>
+    <polygon id="vertical"   points="032 000 064 032 064 128 032 160 000 128 000 032"/>
+  </defs>
+  <use id="A" class="dark"  xlink:href="#horizontal" x="176" y="032"/>
+  <use id="B" class="light" xlink:href="#vertical"   x="320" y="080"/>
+  <use id="C" class="light" xlink:href="#vertical"   x="320" y="272"/>
+  <use id="D" class="dark"  xlink:href="#horizontal" x="176" y="416"/>
+  <use id="E" class="dark"  xlink:href="#vertical"   x="128" y="272"/>
+  <use id="F" class="light" xlink:href="#vertical"   x="128" y="080"/>
+  <use id="G" class="light" xlink:href="#horizontal" x="176" y="224"/>
+</svg>
